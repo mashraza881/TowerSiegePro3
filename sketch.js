@@ -138,3 +138,12 @@ function mouseReleased(){
   slingShot.fly();
 }
 
+function keyPressed(){
+  //if(keyCode === 20)
+  //if(keyCode === 22)
+  //if(keyCode === 30)
+  if(keyCode === 32)
+  {
+      slingShot.attach(this.ball);
+  }
+}
